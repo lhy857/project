@@ -1,0 +1,26 @@
+{
+  "name": "book-mgr-be",
+  "version": "1.0.0",
+  "description": "毕设",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "毕设"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "@koa/router": "^12.0.0",
+    "jquery": "^3.6.3",
+    "koa": "^2.14.1",
+    "koa-body": "^6.0.1",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
